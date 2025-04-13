@@ -5,9 +5,9 @@ from sqlalchemy import create_engine
 
 
 
-# Database connection string
-DATABASE_URL = "mssql+pyodbc://DESKTOP-GTDNBNA\\SQLEXPRESS/etl_pipeline?driver=ODBC+Driver+17+for+SQL+Server&Trusted_Connection=yes"
-API_KEY = "e72636399c1196fd11780bec8a428fb7"
+
+DATABASE_URL = "mssql+pyodbc://"DesktopName"\\SQLEXPRESS/"dbname"?driver=ODBC+Driver+17+for+SQL+Server&Trusted_Connection=yes"
+API_KEY = "APIKEY"
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 
 
